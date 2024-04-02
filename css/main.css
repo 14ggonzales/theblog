@@ -8,7 +8,7 @@ body {
 header{
     height: 100vh;
     width: 100%;
-    background-image: url('../img/artboard8.png');
+    background-image: url('../img/finalbackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -37,14 +37,18 @@ nav {
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 40px;
+    font-size: 20px;
     z-index: 100; /* Ensure the nav bar appears above the background */
-    display: flex;}
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+}
 
 nav a {
     margin: 0 10px;
     text-decoration: none;
     color: whitesmoke;
+    background-color: gray
 }
 
 
