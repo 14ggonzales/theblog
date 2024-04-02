@@ -17,4 +17,43 @@ nav{
     top: 0%;
 
 }
+header{
+    display: flex;
+    justify-content: center;
+}
 
+nav {
+    position: fixed; /* Position the nav bar fixed at the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0; /* Increase the padding to add more space */
+    padding-left: 350px;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    z-index: 100; /* Ensure the nav bar appears above the background */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Padding above and below the headlines */
+    
+    background-color: rgba(19, 82, 103, 0.402); /* Semi-transparent baby blue background */
+    width: 100%; /* Full width you had the header width set to twices the browser windwon size as 200%*/
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Align at the top */
+}
+
+nav a {
+    margin: 0 10px;
+    color: whitesmoke;
+    text-decoration: none; /* Remove underline from links */
+    padding: 20px 20px; /* Padding around the links */
+    margin: 0 60px; /* Spacing between the links */
+    border: 1px solid #ccc; /* Border around the links */
+    border-radius: 5px; /* Rounded corners for the borders */
+}
+
+a:hover {
+    background-color: red; /* Background color on hover */
+}
