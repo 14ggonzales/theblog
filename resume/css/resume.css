@@ -1,0 +1,20 @@
+h1{
+    color:blue;
+}
+
+p{
+    font-family: "cooper-black-std", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+nav{
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+    width: 100%;
+    top: 0%;
+
+}
+
