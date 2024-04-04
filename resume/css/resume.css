@@ -8,6 +8,9 @@ font-weight: 400;
 font-style: normal;
 }
 
+
+/* Nav Bar */
+
 nav{
     font-family: "cooper-black-std", serif;
     font-weight: 400;
@@ -42,6 +45,11 @@ nav {
     width: 100%; /* Full width you had the header width set to twices the browser windwon size as 200%*/
     position: fixed; /* Fixed position at the top */
     top: 0; /* Align at the top */
+    background-image: url(../img/sandwichguy.png);
+    background-size: 100px; /* Set the size of the image */
+    background-position: top left; /* Position the image at the top left corner */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    padding-right: 100px;
 }
 
 nav a {
@@ -57,3 +65,60 @@ nav a {
 a:hover {
     background-color: red; /* Background color on hover */
 }
+
+
+
+
+
+/* Background img*/
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/artboard1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    position: fixed; /* Fix the position of the image */
+    top: 110px; /* Adjust the top position as needed */
+    left: 8%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    z-index: 50; /* Ensure the image appears above the background */
+}
+
+h1 {
+    font-size: 90px;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: normal;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 70%;
+    left: 60%;
+    right: 0; /* Adjust the right value to move the h3 tag to the desired position */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Box background color */
+    padding: 50px 50px 50px 50px; /* Padding inside the box */
+    color: white; /* Text color */
+}
+
+    

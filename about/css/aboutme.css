@@ -1,12 +1,42 @@
-h1{
-    color: red;
+h1 {
+    font-size: 90px;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: normal;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: left;
+    background-color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 70%;
+    left: 60%;
+    right: 0; /* Adjust the right value to move the h3 tag to the desired position */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Box background color */
+    padding: 50px 50px 50px 50px; /* Padding inside the box */
+    color: white; /* Text color */
 }
 
 
-p{
-    font-family: "cooper-black-std", serif;
-font-weight: 400;
-font-style: normal;
+img {
+    position: fixed; /* Fix the position of the image */
+    top: 110px; /* Adjust the top position as needed */
+    left: 8%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    z-index: 50; /* Ensure the image appears above the background */
 }
 
 nav {
