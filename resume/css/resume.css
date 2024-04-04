@@ -73,7 +73,7 @@ a:hover {
 /* Background img*/
 
 body{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-image: url('../img/artboard1.png');
     background-repeat: no-repeat;
