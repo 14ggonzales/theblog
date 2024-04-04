@@ -113,8 +113,8 @@ h3 {
     font-style: normal;
     position: fixed;
     top: 70%;
-    left: 60%;
-    right: 0; /* Adjust the right value to move the h3 tag to the desired position */
+    left: 50%;
+    right: 10%; /* Adjust the right value to move the h3 tag to the desired position */
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5); /* Box background color */
     padding: 50px 50px 50px 50px; /* Padding inside the box */
