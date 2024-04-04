@@ -39,6 +39,17 @@ img {
     z-index: 50; /* Ensure the image appears above the background */
 }
 
+/* Background img*/
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/artboard1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 nav {
     position: fixed; /* Position the nav bar fixed at the top of the viewport */
     top: 0;

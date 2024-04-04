@@ -1,5 +1,5 @@
 h1{
-    color:blue;
+    color: black;
 }
 
 p{
@@ -117,7 +117,7 @@ h3 {
     right: 10%; /* Adjust the right value to move the h3 tag to the desired position */
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5); /* Box background color */
-    padding: 50px 50px 50px 50px; /* Padding inside the box */
+    padding: 10px 10px 10px 10px; /* Padding inside the box */
     color: white; /* Text color */
 }
 
