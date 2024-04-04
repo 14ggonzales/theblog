@@ -26,8 +26,11 @@ h3 {
     right: 10%; /* Adjust the right value to move the h3 tag to the desired position */
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5); /* Box background color */
-    padding: 10px 10px 10px 10px; /* Padding inside the box */
     color: white; /* Text color */
+    padding: 5px 10px; /* Reduced padding inside the box */
+    color: white; /* Text color */
+    width: fit-content; /* Set the width to fit the content */
+}
 }
 
 
