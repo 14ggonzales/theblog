@@ -24,9 +24,9 @@ section {
 }
 
 h3 {
-    font-family: "cooper-black-std", serif;
-    font-weight: 40;
-    font-style: italic;
+    font-family: "fatfrank", sans-serif;
+    font-weight: 400;
+    font-style: bold;
     font-size: 40px;
     margin: 0px;
     display: flex;
