@@ -17,7 +17,9 @@ header {
 section {
     height: 100vh;
     width: 100%;
-    background-image: url(../img/2ndwebbackground.png);
+    background-image: url(/img/2ndwebbackground.png);
+    border-radius: 10px;
+    border-color: black;
     
 }
 
@@ -34,10 +36,6 @@ h3 {
     padding-top: 400px;
     padding-left: 350px;
     padding-right: 350px;
-    background-image: url(/img/2ndwebbackground.png);
-   
- 
-
 }
 
 
