@@ -72,8 +72,18 @@ body{
     border: 5px solid black; /* Add a black border */
     border-radius: 10px; /* Add rounded corners */
     background-color: white;
+    transition: border-color 0.3s, transform 0.3s; /* Add smooth transitions */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+
+.picture2:hover {
+    border-color: red; /* Change the border color on hover */
+    transform: translate(-50%, -5%) scale(1.05); /* Scale the image on hover */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Change text shadow on hover */
     
 }
+
+
 
 
 

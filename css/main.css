@@ -36,9 +36,20 @@ h3 {
     padding-top: 300px;
     padding-left: 350px;
     padding-right: 350px;
+    padding-bottom: 250px;
     letter-spacing: 5px;
     line-height: 60px;
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transitions */
 }
+
+h3:hover {
+    background-color: rgba(139, 139, 139, 0.473); /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+
+
+
 
 
 /* I am trying to put a white box around my h3 text, but my text keeps moving with my section background using this code 
