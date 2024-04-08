@@ -124,7 +124,7 @@ h3 {
     font-family: "fatfrank", sans-serif;
     font-weight: 400;
     font-style: regular;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 51%;
     left: 50%;
@@ -135,6 +135,7 @@ h3 {
     color: rgb(0, 0, 0); /* Text color */
     z-index: 2000;
     letter-spacing: 5px; /* Adjust the letter-spacing value to add more space between letters */
+    line-height: 40px;
 }
 
 

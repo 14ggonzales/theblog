@@ -26,7 +26,7 @@ section {
 h3 {
     font-family: "fatfrank", sans-serif;
     font-weight: 400;
-    font-style: bold;
+    font-style: regular;
     font-size: 40px;
     margin: 0px;
     display: flex;
@@ -36,6 +36,8 @@ h3 {
     padding-top: 400px;
     padding-left: 350px;
     padding-right: 350px;
+    letter-spacing: 5px;
+    line-height: 60px;
 }
 
 
