@@ -1,57 +1,86 @@
+
 h1 {
     font-size: 50px;
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: normal;
     font-style: normal;
-    position: fixed;
-    top: 15%;
-    left: 50%;
+    position: absolute;
+    top: 10%;
+    left: 49.95%;
     transform: translate(-50%, -50%);
     text-align: center; /* Center the text horizontally */
     display: flex;
-    justify-content: left;
-    background-color: whitesmoke;
+    justify-content: center;
+    background-color: rgb(216, 109, 38);
     padding: 20px 20px 20px 20px;
+    border: 5px solid black; /* Add a black border */
+    border-radius: 10px; /* Add rounded corners */
 }
 
 h3 {
-    font-size: 20px;
-    font-family: "cooper-black-std", serif;
+    font-family: "fatfrank", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    position: fixed;
-    top: 60%;
+    font-style: regular;
+    font-size: 25px;
+    position: absolute;
+    top: 51%;
     left: 50%;
     right: 10%; /* Adjust the right value to move the h3 tag to the desired position */
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Box background color */
-    color: white; /* Text color */
-    padding: 5px 10px; /* Reduced padding inside the box */
-    color: white; /* Text color */
-    width: fit-content; /* Set the width to fit the content */
-}
+    background-color: rgb(255, 255, 255); /* Box background color */
+    padding: 10px 10px 10px 10px; /* Padding inside the box */
+    color: rgb(0, 0, 0); /* Text color */
+    z-index: 2000;
+    letter-spacing: 5px; /* Adjust the letter-spacing value to add more space between letters */
+    line-height: 50px;
 }
 
 
-img {
-    position: fixed; /* Fix the position of the image */
-    top: 110px; /* Adjust the top position as needed */
-    left: 8%; /* Center the image horizontally */
-    transform: translateX(-50%); /* Center the image horizontally */
-    z-index: 50; /* Ensure the image appears above the background */
-}
+
 
 /* Background img*/
 
 body{
     height: 200vh;
     width: 100%;
-    background-image: url('../img/artboard1.png');
+    background-image: url('/img/2ndwebbackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
 }
+
+
+
+
+
+.picture1 {
+    position: fixed; /* Fix the position of the image */
+    top: 5px; /* Adjust the top position as needed */
+    left: 2%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    z-index: 1000; /* Ensure the image appears above the background */
+   
+}
+
+.picture2 {
+    position: relative; /* Fix the position of the image */
+    top: 300px; /* Adjust the top position as needed */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    z-index: 100; /* Ensure the image appears above the background */
+    border: 5px solid black; /* Add a black border */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
 
 nav {
     position: fixed; /* Position the nav bar fixed at the top of the viewport */
@@ -67,7 +96,7 @@ nav {
     z-index: 100; /* Ensure the nav bar appears above the background */
     display: flex;
     justify-content: center;
-    padding: 10px 0; /* Padding above and below the headlines */
+    padding: 20px 0; /* Padding above and below the headlines */
     
     background-color: rgba(19, 82, 103, 0.402); /* Semi-transparent baby blue background */
     width: 100%; /* Full width you had the header width set to twices the browser windwon size as 200%*/
@@ -87,4 +116,35 @@ nav a {
 
 a:hover {
     background-color: red; /* Background color on hover */
+}
+
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }

@@ -92,7 +92,7 @@ body{
 
 .picture2 {
     position: relative; /* Fix the position of the image */
-    top: 100px; /* Adjust the top position as needed */
+    top: 300px; /* Adjust the top position as needed */
     left: 50%; /* Center the image horizontally */
     transform: translateX(-50%); /* Center the image horizontally */
     z-index: 100; /* Ensure the image appears above the background */
@@ -109,8 +109,8 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-style: normal;
-    position: relative;
-    top: 4.8%;
+    position: absolute;
+    top: 10%;
     left: 49.95%;
     transform: translate(-50%, -50%);
     text-align: center; /* Center the text horizontally */
@@ -118,6 +118,8 @@ h1 {
     justify-content: center;
     background-color: rgb(216, 109, 38);
     padding: 20px 20px 20px 20px;
+    border: 5px solid black; /* Add a black border */
+    border-radius: 10px; /* Add rounded corners */
 }
 
 h3 {
@@ -126,7 +128,7 @@ h3 {
     font-style: regular;
     font-size: 25px;
     position: absolute;
-    top: 51%;
+    top: 53%;
     left: 50%;
     right: 10%; /* Adjust the right value to move the h3 tag to the desired position */
     transform: translateY(-50%);
@@ -135,7 +137,7 @@ h3 {
     color: rgb(0, 0, 0); /* Text color */
     z-index: 2000;
     letter-spacing: 5px; /* Adjust the letter-spacing value to add more space between letters */
-    line-height: 40px;
+    line-height: 50px;
 }
 
 
