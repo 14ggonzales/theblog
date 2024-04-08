@@ -44,7 +44,7 @@ h3 {
 body{
     height: 200vh;
     width: 100%;
-    background-image: url('../img/2ndwebbackground.png');
+    background-image: url('/img/2ndwebbackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
